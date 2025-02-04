@@ -1,0 +1,166 @@
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'module' object has no attribute 'popall'Traceback (most recent call last):
+  File "d:/Data/3Packages/Moniman/Moniman.py", line 725, in <module>
+    Moniman_EXEC()
+  File "d:/Data/3Packages/Moniman/Moniman.py", line 82, in __init__
+    self.plot_canvas = MyStaticMplCanvas(self.ui.widget, width=5, height=4, dpi=100)
+  File "d:\Data\3Packages\Moniman\gui\gui_main_matplotlib.py", line 1124, in __init__
+    self.axes = self.fig.add_subplot(111)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\figure.py", line 1020, in add_subplot
+    a = subplot_class_factory(projection_class)(self, *args, **kwargs)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axes\_subplots.py", line 73, in __init__
+    self._axes_class.__init__(self, fig, self.figbox, **kwargs)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axes\_base.py", line 529, in __init__
+    self._init_axis()
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axes\_base.py", line 622, in _init_axis
+    self.xaxis = maxis.XAxis(self)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axis.py", line 676, in __init__
+    self.cla()
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axis.py", line 760, in cla
+    self.reset_ticks()
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axis.py", line 771, in reset_ticks
+    cbook.popall(self.majorTicks)
+AttributeError: 'module' object has no attribute 'popall'
+'module' object has no attribute 'popall'Traceback (most recent call last):
+  File "d:/Data/3Packages/Moniman/Moniman.py", line 725, in <module>
+    Moniman_EXEC()
+  File "d:/Data/3Packages/Moniman/Moniman.py", line 82, in __init__
+    self.plot_canvas = MyStaticMplCanvas(self.ui.widget, width=5, height=4, dpi=100)
+  File "d:\Data\3Packages\Moniman\gui\gui_main_matplotlib.py", line 1124, in __init__
+    self.axes = self.fig.add_subplot(111)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\figure.py", line 1020, in add_subplot
+    a = subplot_class_factory(projection_class)(self, *args, **kwargs)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axes\_subplots.py", line 73, in __init__
+    self._axes_class.__init__(self, fig, self.figbox, **kwargs)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axes\_base.py", line 529, in __init__
+    self._init_axis()
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axes\_base.py", line 622, in _init_axis
+    self.xaxis = maxis.XAxis(self)
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axis.py", line 676, in __init__
+    self.cla()
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axis.py", line 760, in cla
+    self.reset_ticks()
+  File "D:\Data\bjg\Anaconda3\envs\py34\lib\site-packages\matplotlib\axis.py", line 771, in reset_ticks
+    cbook.popall(self.majorTicks)
+AttributeError: 'module' object has no attribute 'popall'
+list index out of rangeTraceback (most recent call last):
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4184, in load
+    loadPlaxman.define_soil_improvement_structure(self.ui, self.plot_canvas, self.plaxis2d_input_file, 'g_i', self.sc_name, self.SCs, self.FDCs, self.polygonPoints)
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman_load.py", line 235, in define_soil_improvement_structure
+    ui.lineEdit_76.setText(str(sc['polygonPoints'][0]['point'][0]) + ', ' + str(sc['polygonPoints'][0]['point'][1]))
+IndexError: list index out of range
+list index out of rangeTraceback (most recent call last):
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4184, in load
+    loadPlaxman.define_soil_improvement_structure(self.ui, self.plot_canvas, self.plaxis2d_input_file, 'g_i', self.sc_name, self.SCs, self.FDCs, self.polygonPoints)
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman_load.py", line 235, in define_soil_improvement_structure
+    ui.lineEdit_76.setText(str(sc['polygonPoints'][0]['point'][0]) + ', ' + str(sc['polygonPoints'][0]['point'][1]))
+IndexError: list index out of range
+list index out of rangeTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4184, in load
+    loadPlaxman.define_soil_improvement_structure(self.ui, self.plot_canvas, self.plaxis2d_input_file, 'g_i', self.sc_name, self.SCs, self.FDCs, self.polygonPoints)
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman_load.py", line 235, in define_soil_improvement_structure
+    ui.lineEdit_76.setText(str(sc['polygonPoints'][0]['point'][0]) + ', ' + str(sc['polygonPoints'][0]['point'][1]))
+IndexError: list index out of range
+list index out of rangeTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4184, in load
+    loadPlaxman.define_soil_improvement_structure(self.ui, self.plot_canvas, self.plaxis2d_input_file, 'g_i', self.sc_name, self.SCs, self.FDCs, self.polygonPoints)
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman_load.py", line 235, in define_soil_improvement_structure
+    ui.lineEdit_76.setText(str(sc['polygonPoints'][0]['point'][0]) + ', ' + str(sc['polygonPoints'][0]['point'][1]))
+IndexError: list index out of range
+list index out of rangeTraceback (most recent call last):
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4184, in load
+    loadPlaxman.define_soil_improvement_structure(self.ui, self.plot_canvas, self.plaxis2d_input_file, 'g_i', self.sc_name, self.SCs, self.FDCs, self.polygonPoints)
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman_load.py", line 235, in define_soil_improvement_structure
+    ui.lineEdit_76.setText(str(sc['polygonPoints'][0]['point'][0]) + ', ' + str(sc['polygonPoints'][0]['point'][1]))
+IndexError: list index out of range
+list index out of rangeTraceback (most recent call last):
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4184, in load
+    loadPlaxman.define_soil_improvement_structure(self.ui, self.plot_canvas, self.plaxis2d_input_file, 'g_i', self.sc_name, self.SCs, self.FDCs, self.polygonPoints)
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman_load.py", line 235, in define_soil_improvement_structure
+    ui.lineEdit_76.setText(str(sc['polygonPoints'][0]['point'][0]) + ', ' + str(sc['polygonPoints'][0]['point'][1]))
+IndexError: list index out of range
+list index out of rangeTraceback (most recent call last):
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4184, in load
+    loadPlaxman.define_soil_improvement_structure(self.ui, self.plot_canvas, self.plaxis2d_input_file, 'g_i', self.sc_name, self.SCs, self.FDCs, self.polygonPoints)
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman_load.py", line 235, in define_soil_improvement_structure
+    ui.lineEdit_76.setText(str(sc['polygonPoints'][0]['point'][0]) + ', ' + str(sc['polygonPoints'][0]['point'][1]))
+IndexError: list index out of range
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4190, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4243, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4243, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "D:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4243, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4243, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4243, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
+'NoneType' object is not subscriptableTraceback (most recent call last):
+  File "d:\Data\3Packages\Moniman\plaxman\plaxman.py", line 4243, in load
+    self.plaxman_x.display_lineloads_on_table(self.Lineloads, self.geometry[1], self.geometry[3])
+TypeError: 'NoneType' object is not subscriptable
